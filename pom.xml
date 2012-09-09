@@ -151,18 +151,18 @@
       </plugin>
       
       <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>${maven-surefire-plugin-version}</version>
-        
-        <configuration>
-          <!-- we must turn off the use of system class loader so our tests can find stuff - otherwise ScalaSupport compiler can't find stuff -->
-          <useSystemClassLoader>false</useSystemClassLoader>
-          <!--forkMode>pertest</forkMode-->
-          <childDelegation>false</childDelegation>
-          <useFile>true</useFile>
-          <failIfNoTests>false</failIfNoTests>
-        </configuration>
+        <groupId>com.mmakowski</groupId>
+        <artifactId>maven-specs2-plugin</artifactId>
+        <version>0.3.1-SNAPSHOT</version>
+        <executions>
+          <execution>
+            <id>test-specs2</id>
+            <phase>test</phase>
+            <goals>
+              <goal>run-specs</goal>
+            </goals>
+          </execution>
+        </executions>
       </plugin>
 
       <plugin>
