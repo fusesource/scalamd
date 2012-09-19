@@ -153,7 +153,7 @@
       <plugin>
         <groupId>com.mmakowski</groupId>
         <artifactId>maven-specs2-plugin</artifactId>
-        <version>0.3.1-SNAPSHOT</version>
+        <version>0.4.0-RC1</version>
         <executions>
           <execution>
             <id>test-specs2</id>
