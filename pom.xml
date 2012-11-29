@@ -37,7 +37,7 @@
     <forge-project-id>scalamd</forge-project-id>
     <release-altGitURL>scm:git:ssh://git@github.com:chirino/scalamd.git</release-altGitURL>
     
-    <scala-version>2.10.0-RC2</scala-version>
+    <scala-version>2.10.0-RC3</scala-version>
     <scala-maven-plugin-version>3.1.0</scala-maven-plugin-version>
     <maven-surefire-plugin-version>2.12.4</maven-surefire-plugin-version>
     <bundle-plugin-version>2.3.4</bundle-plugin-version>
@@ -82,7 +82,7 @@
     <dependency>
       <groupId>org.specs2</groupId>
       <artifactId>specs2_${scala-version}</artifactId>
-      <version>1.12.2</version>
+      <version>1.12.3</version>
       <scope>test</scope>
     </dependency>
     
