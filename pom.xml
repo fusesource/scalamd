@@ -25,7 +25,7 @@
 
   <groupId>org.fusesource.scalamd</groupId>
   <artifactId>scalamd_2.9</artifactId>
-  <version>1.6</version>
+  <version>1.7-SNAPSHOT</version>
   <packaging>bundle</packaging>
   
   <name>${project.artifactId}</name>
